@@ -31,7 +31,8 @@
 - Spinner Loading until Datas is found (despite no any data)
 
 # Sample pictures
-- Memorize
+- Django Backend
+![장고 어드민](https://user-images.githubusercontent.com/106279616/202814990-5230d5e5-9f01-408c-8f97-5de4963aa7cc.jpg)
 
 
 # Sample videos
