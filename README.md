@@ -48,8 +48,20 @@
 ![장고어드민, restframework, mysql](https://user-images.githubusercontent.com/106279616/202817483-ed6cde7d-e580-4e51-bceb-3360eb941d9c.jpg)
 
 
-
-
-
 # Sample videos
 <h3> 1. Home(animation): </h3>
+
+<h3> 1. Home(animation): </h3>
+
+<h3> 1. Home(animation): </h3>
+
+<h3> 1. Home(animation): </h3>
+
+<h3> 1. Home(animation): </h3>
+
+<h3> 1. Home(animation): </h3>
+
+<h3> 1. Home(animation): </h3>
+
+
+
