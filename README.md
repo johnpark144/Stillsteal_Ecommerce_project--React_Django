@@ -31,9 +31,6 @@
 - Spinner Loading until Datas is found (despite no any data)
 
 # Sample pictures
-- Django Backend, MYSQL
-![장고 어드민](https://user-images.githubusercontent.com/106279616/202814990-5230d5e5-9f01-408c-8f97-5de4963aa7cc.jpg)
-![장고어드민, restframework, mysql](https://user-images.githubusercontent.com/106279616/202816914-a0976b69-e47f-4b0c-bd50-7de537686bd4.jpg)
 
 - Products
 ![products](https://user-images.githubusercontent.com/106279616/202816996-f3fbcef0-a825-4caf-9ed4-2f23246af5af.jpg)
@@ -43,6 +40,11 @@
 
 - Cart
 ![Cart](https://user-images.githubusercontent.com/106279616/202817073-01c09c47-7e73-436d-a6e2-cefcea5af410.jpg)
+
+- Django Backend, MYSQL
+<div>![장고 어드민](https://user-images.githubusercontent.com/106279616/202814990-5230d5e5-9f01-408c-8f97-5de4963aa7cc.jpg)</div>
+<div>![장고어드민, restframework, mysql](https://user-images.githubusercontent.com/106279616/202816914-a0976b69-e47f-4b0c-bd50-7de537686bd4.jpg)</div>
+
 
 
 
