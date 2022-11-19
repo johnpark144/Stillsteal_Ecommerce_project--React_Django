@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import styles from './NavSideBarNavbarFooter.module.css'
+import { Link } from 'react-router-dom';
+import styles from './NavSideBarNavbarFooter.module.css';
 
 export default function NavSideBar({ show, setShowSideBar }) {
     // Menus
