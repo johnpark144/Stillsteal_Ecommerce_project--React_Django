@@ -22,9 +22,9 @@
 - Pagination
 - Number of posts to display per page
 - Possible with Sort by 1, 2, 3 beleow together 
-1 Sort by category
-2 Sort by Price(lowest), Price(highest), Name(ASC), Name(DESC), Rate
-3 Sort only less than certain price
+- 1 Sort by category
+- 2 Sort by Price(lowest), Price(highest), Name(ASC), Name(DESC), Rate
+- 3 Sort only less than certain price
 - Product detail
 - Checkout(no payment yet)
 - Image Animation and design (Home-product, AboutUs, sidebar)
