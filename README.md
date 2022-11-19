@@ -1,4 +1,4 @@
-# Stillsteal_E-commerce_project--React_Django
+# Stillsteal_Ecommerce_project--React_Django
 
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : React(frontend), Django(backend, restframework)
