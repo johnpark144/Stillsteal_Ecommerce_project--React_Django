@@ -180,7 +180,6 @@ export default function CategoryDetail() {
                             ) : (
                                 ""
                             )}
-
                             <h3>Discount for Credit Card User</h3>
                             <h3>[AD] Stillsteal Mileage point counpon [Get counpon]</h3>
                             <h3>[AD] Uber & UberEats Counpon [Get counpon]</h3>
