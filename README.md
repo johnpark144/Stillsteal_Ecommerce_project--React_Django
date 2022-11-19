@@ -4,11 +4,11 @@
 - Main Tools : React(frontend), Django(backend, restframework)
 - Sub Tools : Html, CSS(Tailwind CSS), MySql
 - Explantion : This is Ecommerce site that I create for practice,
-It's not technically clone, but I refer to some ecommerce site
+It's not technically clone, but I refer to some ecommerce sites
 only to think which function would be nice to implement.
-the reason why I name this site "Stillsteal" is
-because when we saw some nice for the price, we say that's steal,
-so to stress those are cheap always, I named "stillsteal"
+the reason why I named this site "Stillsteal" is
+because when we saw some nice for the price, we say "that's steal!",
+so in order to stress those are cheap always, I named "stillsteal"
 
 
 - Date of creation : Nov 4th ~ Nov 15th 2022
