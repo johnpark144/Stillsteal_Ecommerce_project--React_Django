@@ -41,7 +41,7 @@
 - Cart
 ![Cart](https://user-images.githubusercontent.com/106279616/202817073-01c09c47-7e73-436d-a6e2-cefcea5af410.jpg)
 
-- Backend Django admin, MYSQL
+- Backend Django admin, API, MYSQL
 
 ![장고 어드민](https://user-images.githubusercontent.com/106279616/202817473-196059a0-9989-4470-89cc-8b7e1db7c439.jpg)
 
