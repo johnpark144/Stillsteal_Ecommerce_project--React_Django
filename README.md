@@ -3,7 +3,9 @@
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : React(frontend), Django(backend, restframework)
 - Sub Tools : Html, CSS(Tailwind CSS), MySql
-- Explantion :
+- Explantion : This is Ecommerce site that I create for practice,
+It's not technically clone, but I refer to some ecommerce site
+only to think which function would be nice to implement
 
 - Date of creation : Nov 4th ~ Nov 15th 2022
 - Date of debugging : Nov 16th ~ Nov 18th 2022 (clean code, fix error, custom hook, comment)
