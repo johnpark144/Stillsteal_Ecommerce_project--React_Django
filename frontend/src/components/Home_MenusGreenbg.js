@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-import styles from '../routes/Home.module.css'
+import styles from '../routes/Home.module.css';
 
 export default function MenusGreenbg() {
     const [search, setSearch] = useState()
