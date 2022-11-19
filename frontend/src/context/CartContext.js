@@ -13,7 +13,7 @@ export const CartProvider = ({ children, isLoggedIn }) => {
     }) // If the cartlist exist in localStorage, bring it every page. If none, empty list
 
     // CustomHook(useFetch : Call all datas from API)
-    let data = useFetch('/api/products/')
+    let data = useFetch('/api/products/');
 
     // To set Products in cartlist
     useEffect(() => {
