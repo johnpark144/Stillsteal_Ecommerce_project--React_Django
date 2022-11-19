@@ -17,7 +17,7 @@
 - Navigation bar and Navigation side bar
 - Add to cart, subtract from cart in Realtime (Login -> Local Storage / Non-login -> Backend Server)
 - Search
-- Past-searchlist (Local Storage) and delete it
+- Past-searchlist(Local Storage) and delete it
 - See cart in Product detail, Checkout, Cart in deferent form
 - Pagination
 - Number of posts to display per page
