@@ -62,7 +62,7 @@ export const AuthProvider = ({ children }) => {
                 body: JSON.stringify({ 'refresh': authTokens.refresh })
             })
             let data = await response.json()
-
+            
             if (response.status === 200) {
                 setAuthTokens(data)
                 setUser(jwt_decode(data.access))
@@ -88,7 +88,6 @@ export const AuthProvider = ({ children }) => {
             }
         }, 300000)
         return () => clearInterval(interval)
-
     }, [authTokens, loading])
 
     // Signup
