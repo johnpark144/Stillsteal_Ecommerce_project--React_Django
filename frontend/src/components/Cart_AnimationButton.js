@@ -1,5 +1,5 @@
 import { HashLink as Link } from 'react-router-hash-link';
-import styles from '../routes/Cart.module.css'
+import styles from '../routes/Cart.module.css';
 
 export default function AnimationButton({ linkTo, name, id, onClick }) {
     return (<>
