@@ -1,4 +1,4 @@
-import styles from '../routes/Category.module.css'
+import styles from '../routes/Category.module.css';
 
 export default function PostNumberPagination({ limit, setLimit, page, setPage, numPages, bottom,
     setSortBy, lessThenPrice, setLessThenPrice, sortBy }) {
