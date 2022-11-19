@@ -1,5 +1,5 @@
 import { HashLink as Link } from 'react-router-hash-link';
-import styles from './NavSideBarNavbarFooter.module.css'
+import styles from './NavSideBarNavbarFooter.module.css';
 
 export default function Footer() {
     return (<>
