@@ -1,8 +1,8 @@
 import React, { useContext, useEffect } from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import AuthContext from '../../context/AuthContext';
 import CartContext from '../../context/CartContext';
-import styles from './NavSideBarNavbarFooter.module.css'
+import styles from './NavSideBarNavbarFooter.module.css';
 
 export default function Navbar({ setIsLoggedIn, setShowSideBar }) {
     let { user, logoutUser } = useContext(AuthContext)
