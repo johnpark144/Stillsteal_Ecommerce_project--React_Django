@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from '../routes/Category.module.css'
+import styles from '../routes/Category.module.css';
 
 export default function MenuBar({ doSearch, showSearchList, setShowSearchList, categorize }) {
     // Past search list (To change list right away, Whenever search list deleted, )
