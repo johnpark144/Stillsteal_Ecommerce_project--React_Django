@@ -12,7 +12,6 @@ export default function Category() {
     const [searchParams, setSearchParams] = useSearchParams();
     const [search, setSearch] = useState()
     const [showSearchList, setShowSearchList] = useState(false)
-
     const location = useLocation();
 
     // CustomHook
