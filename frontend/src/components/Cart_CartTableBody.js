@@ -1,6 +1,6 @@
-import { useContext, useEffect } from 'react'
-import CartContext from '../context/CartContext'
-import styles from '../routes/Cart.module.css'
+import { useContext, useEffect } from 'react';
+import CartContext from '../context/CartContext';
+import styles from '../routes/Cart.module.css';
 
 export default function CartTableBody({ fromCart, fromCategoryDetail }) {
     let { cartList, setCartList, products, setProducts, data } = useContext(CartContext);
