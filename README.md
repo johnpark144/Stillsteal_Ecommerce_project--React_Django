@@ -55,19 +55,18 @@ so in order to stress those are cheap always, I named "stillsteal"
 
 
 # Sample videos
-<h3> 1. Home(animation): </h3>
+<h3> 1.Sort by category, Pagination: </h3>
+<video controls="" autoplay="" name="media"><source src="https://user-images.githubusercontent.com/106279616/203090869-de93ff39-b4e7-4a51-a479-5baded54638d.mp4" type="video/mp4"></video>
 
-<h3> 1. Home(animation): </h3>
+<h3> 2. Sort by price, name, rate, lessthanprice: </h3>
 
-<h3> 1. Home(animation): </h3>
+<h3> 3. Search, Past-searchlist:  </h3>
 
-<h3> 1. Home(animation): </h3>
+<h3> 4. Cart with Login, Re-login regain list: </h3>
 
-<h3> 1. Home(animation): </h3>
+<h3> 5. Cart without login, Checkout: </h3>
 
-<h3> 1. Home(animation): </h3>
-
-<h3> 1. Home(animation): </h3>
+<h3> 6. Responsive site: </h3>
 
 
 
