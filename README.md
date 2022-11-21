@@ -59,14 +59,18 @@ so in order to stress those are cheap always, I named "stillsteal"
 <video src="https://user-images.githubusercontent.com/106279616/203090869-de93ff39-b4e7-4a51-a479-5baded54638d.mp4"></video>
 
 <h3> 2. Sort by price, name, rate, lessthanprice: </h3>
+<video src="https://user-images.githubusercontent.com/106279616/203091737-eb973947-a08d-481b-b28a-c23f714a63c5.mp4"></video>
 
 <h3> 3. Search, Past-searchlist:  </h3>
+<video src="https://user-images.githubusercontent.com/106279616/203092189-8ffa67d9-c679-4923-b394-2ebfee7545b5.mp4"></video>
 
 <h3> 4. Cart with Login, Re-login regain list: </h3>
+<video src="https://user-images.githubusercontent.com/106279616/203092673-ad37e5ef-29c1-4e80-b6de-21fbb021b325.mp4"></video>
 
 <h3> 5. Cart without login, Checkout: </h3>
+<video src="https://user-images.githubusercontent.com/106279616/203092735-60519df0-070f-44be-960a-fb977508b317.mp4"></video>
 
 <h3> 6. Responsive site: </h3>
-
+<video src="https://user-images.githubusercontent.com/106279616/203093064-d76e9253-0e54-4650-b1d6-9c87c563aa78.mp4"></video>
 
 
