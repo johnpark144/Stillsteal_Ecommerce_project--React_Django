@@ -55,6 +55,10 @@ so in order to stress those are cheap always, I named "stillsteal"
 
 
 # Sample videos
+All page looks like bad quality in the videos but real look is like the picture above,
+and also Don't mind buffering and glitching for it happen only whenever the video recoder turn on,
+So please pay attention only to the functions.
+
 <h3> 1.Sort by category, Pagination: </h3>
 <video src="https://user-images.githubusercontent.com/106279616/203090869-de93ff39-b4e7-4a51-a479-5baded54638d.mp4"></video>
 
