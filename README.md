@@ -24,9 +24,9 @@ so in order to stress those are cheap always, I named "stillsteal"
 - Login, Logout, Signup (you can also use without login)
 - TokenRefresh with JWT
 - Navigation bar and Navigation side bar
-- Add to cart, subtract from cart in Realtime (Login -> Local Storage / Non-login -> Backend Server)
+- Add to cart, subtract from cart (Login -> Local Storage / Non-login -> Backend Server)
 - Search
-- Past-searchlist(Local Storage) and delete it
+- Past-searchlist(Local Storage) and delete
 - See cart in Product detail, Checkout, Cart in deferent form
 - Pagination
 - Number of posts to display per page
