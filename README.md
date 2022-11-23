@@ -1,4 +1,6 @@
 # Stillsteal_Ecommerce_project--React_Django
+- Link : https://637d60fe33534d56f0fac76c--tangerine-cactus-bf8a95.netlify.app/
+- Backend(API) : https://vyckd353.pythonanywhere.com/api/
 
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : React(frontend), Django(backend, restframework)
