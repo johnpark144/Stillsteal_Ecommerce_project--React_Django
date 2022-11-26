@@ -37,7 +37,7 @@ so in order to stress those are cheap always, I named "stillsteal"
 - Product detail
 - Checkout(no payment yet)
 - Image Animation and design (Home-product, AboutUs, sidebar)
-- Spinner Loading until Datas is found (despite no any data)
+- Spinner Loading until Data is found (despite no any data)
 
 # Sample pictures
 
