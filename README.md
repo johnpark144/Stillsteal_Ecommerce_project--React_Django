@@ -58,7 +58,7 @@ so in order to stress those are cheap always, I named "stillsteal"
 
 
 # Sample videos
-All pages looks like bad quality in the videos but real look is like the picture above,
+All pages look like bad quality in the videos but real look is like the picture above,
 and also Don't mind buffering and glitching for it happen only whenever the video recoder turn on,
 So please pay attention only to the functions.
 
