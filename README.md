@@ -17,6 +17,7 @@ so in order to stress those are cheap always, I named "stillsteal"
 - Date of debugging : Nov 16th ~ Nov 18th 2022 (clean code, fix error, custom hook, comment)
 - Date of upload : Nov 18th 2022
 - Date of deployment : Nov 22th 2022
+- Deployment Tool : Netlify(Front), Pythonanywhere(Back)
 
 
 # Functions
