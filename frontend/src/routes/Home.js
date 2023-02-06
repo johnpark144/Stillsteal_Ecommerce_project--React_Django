@@ -34,7 +34,7 @@ export default function Home() {
             <div className={styles.imgMsg}>
                 <h3>Hot deal </h3>
                 <h1>Fashion Collection 2023</h1>
-                <Link to='/category#' style={{ textAlign: 'left' }} className={styles.moreBtn}>
+                <Link to='/category#' className={styles.moreBtn}>
                     <button>More Items</button>
                 </Link>
             </div>
