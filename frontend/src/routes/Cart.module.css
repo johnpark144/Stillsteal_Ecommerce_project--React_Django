@@ -195,6 +195,7 @@
         right: 20px;
         background-color: #0e3628;
         border-radius: 100px;
+        box-shadow: 1px 1px 5px 1px gray;
     }
 
     .btns {
