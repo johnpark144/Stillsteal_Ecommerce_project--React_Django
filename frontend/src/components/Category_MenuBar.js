@@ -12,12 +12,12 @@ export default function MenuBar({ doSearch, showSearchList, setShowSearchList, c
             <div className={`${styles.menusSearch} w-full flex flex-row items-center p-2 shadow-xs bg-emerald-500`}>
                 {/* Menus */}
                 <ul className={styles.menus}>
-                    <li className={styles.menu} onClick={categorize} style={{ cursor: 'pointer' }}>ALL</li>
-                    <li className={styles.menu} onClick={categorize} style={{ cursor: 'pointer' }}>MENS</li>
-                    <li className={styles.menu} onClick={categorize} style={{ cursor: 'pointer' }}>WOMENS</li>
-                    <li className={styles.menu} onClick={categorize} style={{ cursor: 'pointer' }}>FOOD</li>
-                    <li className={styles.menu} onClick={categorize} style={{ cursor: 'pointer' }}>FUNITURE</li>
-                    <li className={styles.menu} onClick={categorize} style={{ cursor: 'pointer' }}>DIGITAL</li>
+                    <li className={styles.menu} onClick={categorize}>ALL</li>
+                    <li className={styles.menu} onClick={categorize}>MENS</li>
+                    <li className={styles.menu} onClick={categorize}>WOMENS</li>
+                    <li className={styles.menu} onClick={categorize}>FOOD</li>
+                    <li className={styles.menu} onClick={categorize}>FUNITURE</li>
+                    <li className={styles.menu} onClick={categorize}>DIGITAL</li>
                 </ul>
                 {/* search box */}
                 <div className={styles.search}>
