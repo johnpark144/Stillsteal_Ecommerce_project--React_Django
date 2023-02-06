@@ -1,0 +1,315 @@
+.productDetail {
+    padding: 50px 80px 50px 80px;
+}
+
+.productDetail>div {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+    min-height: 900px;
+}
+
+@media screen and (max-width: 992px) {
+    .productDetail>div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .productDetail {
+        padding: 20px;
+    }
+}
+
+/* ########## Leftside ########## */
+.leftSide {
+    width: 30%;
+    margin: 20px;
+}
+
+.back {
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.hotdealsImg {
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    width: 120px;
+    height: 120px;
+}
+
+.productImg {
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 1300px) {
+    .productImg {
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .leftSide {
+        width: 100%;
+        margin: 30px 0 30px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .productImg {
+        margin-top: -30px;
+        border-radius: 30px;
+        width: calc(98% - 50px);
+        max-width: 500px;
+        height: 500px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .productImg {
+        max-width: 400px;
+        height: 300px;
+    }
+
+    .hotdealsImg {
+        top: 80px;
+        left: 50px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* ########## Center ########## */
+.center {
+    width: 40%;
+    margin: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .center {
+        width: calc(98% - 45px);
+        margin: 30px;
+    }
+}
+
+
+/* category */
+.category {
+    font-size: 14px;
+    color: green;
+}
+
+/* star */
+.star {
+    color: rgb(255, 145, 42);
+}
+
+/* name */
+.name {
+    font-size: 30px;
+}
+
+/* price */
+.price {
+    font-size: 24px;
+}
+
+.price :nth-child(2) {
+    color: red;
+    font-style: italic;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+/* coupon */
+.coupon {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    color: red;
+}
+
+.coupon>div {
+    position: relative;
+    bottom: 10px;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: rgb(255, 224, 49);
+    font-weight: bold;
+    color: black;
+    width: 120px;
+    text-align: center;
+}
+
+.coupon :nth-child(3) {
+    border: 1px red solid;
+    width: 80px;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* color */
+.color :nth-child(2) {
+    color: gray;
+    font-weight: bold;
+}
+
+/* delivery, ETA */
+.delivery {
+    color: skyblue;
+    font-size: 22px;
+}
+
+.eta {
+    font-size: 22px;
+}
+
+/*  Ad, benefits */
+.benefits {
+    font-size: 18px;
+    color: rgb(122, 122, 122);
+}
+
+.tmobile {
+    cursor: pointer;
+}
+
+.tmobileModal {
+    display: flex;
+    background: white;
+    position: relative;
+    font-size: 22px;
+    width: 500px;
+    box-shadow: 5px 5px 5px 5px #7c7c7e;
+}
+
+.tmobileModal :nth-child(1) {
+    margin: 7px;
+    width: 200px;
+    height: 100px;
+}
+
+.tmobileModal :nth-child(2) {
+    margin: 7px;
+    width: 100%;
+}
+
+.tmobileModal :nth-child(3) {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.cardModal {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    position: relative;
+    font-size: 22px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 5px 5px 5px 5px #7c7c7e;
+}
+
+.cardModal>span:nth-child(2) {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cardExplanation {
+    display: flex;
+    width: 100%;
+}
+
+.cardExplanation>img {
+    width: 130px;
+    height: 149px;
+}
+
+.cardExplanation>span {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+    .tmobileModal {
+        font-size: 18px;
+        width: 370px;
+    }
+
+    .cardModal {
+        font-size: 18px;
+        width: 370px;
+        height: 300px;
+    }
+}
+
+/* ADD TO CART btn */
+.addBtn {
+    padding: 25px 30px;
+    margin: 50px 80px 30px 80px;
+    border: var(--btn-color) 1px solid;
+    border-radius: 7px;
+    color: var(--btn-color);
+    text-align: center;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background: var(--btn-color);
+    color: #336857;
+    box-shadow: 0 0 5px var(--btn-color),
+        0 0 15px var(--btn-color),
+        0 0 30px var(--btn-color);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+
+
+/* ########## Rightside ########## */
+
+.right {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 28%;
+    height: 900px;
+    padding: 3px 5px 0px 5px;
+    font-size: 28px;
+}
+
+.table {
+    width: 100%;
+    height: 675px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.right div:nth-child(1) {
+    text-align: center;
+}
+
+.right div:nth-child(5) {
+    line-height: 35px;
+}
+
+@media screen and (max-width: 992px) {
+    .right {
+        display: none;
+    }
+}

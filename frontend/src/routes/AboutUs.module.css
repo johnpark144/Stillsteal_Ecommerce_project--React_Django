@@ -1,0 +1,264 @@
+.imgContainer {
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 800px;
+    transition: background-image 1800ms 0s ease-in-out;
+    filter: brightness(90%);
+}
+
+/* ######### changing-Image and letters ######### */
+.msgInside {
+    position: relative;
+    top: 170px;
+    left: 70px;
+    transition: color 1800ms 0s ease-in-out;
+}
+
+.msgDiscover {
+    font-size: 50px;
+}
+
+.msgDiscover :nth-child(1) {
+    font-size: 22px;
+}
+
+.msgBestCommerce {
+    position: relative;
+    top: 180px;
+    left: calc(92% - 1070px);
+    display: flex;
+}
+
+.msgBestCommerce :nth-child(1) {
+    width: 350px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.msgBestCommerce :nth-child(2) {
+    font-size: 22px;
+    width: 700px;
+}
+
+@media screen and (max-width: 1100px) {
+    .imgContainer {
+        height: 500px;
+        width: 100vw;
+        background-size: 100vw 500px;
+    }
+
+    .msgInside {
+        top: 68px;
+        left: 50px;
+    }
+
+    .msgDiscover {
+        font-size: 30px;
+    }
+
+    .msgDiscover :nth-child(1) {
+        font-size: 18px;
+    }
+
+    .msgBestCommerce {
+        top: 120px;
+        left: calc(93% - 650px);
+    }
+
+    .msgBestCommerce :nth-child(1) {
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .msgBestCommerce :nth-child(2) {
+        font-size: 22px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .imgContainer {
+        width: 100vw;
+        height: 400px;
+        background-size: 100vw 450px;
+        margin-top: 27px;
+    }
+
+    .msgInside {
+        width: 100vw;
+        left: 20px;
+    }
+
+    .msgBestCommerce {
+        display: none;
+    }
+}
+
+/* ######### Trust, Hope, Technology ######### */
+.msgOutside {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+}
+
+.msgOutside>div {
+    width: 500px;
+    margin: 0 5px 0 5px;
+    font-size: 24px;
+}
+
+.msgOutside>div>div>h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#trustImg {
+    width: 500px;
+    height: 300px;
+}
+
+#hopeImg {
+    width: 500px;
+    height: 300px;
+}
+
+#techImg {
+    width: 500px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1100px) {
+    .msgOutside {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0 40px 0;
+    }
+
+    .msgOutside>div {
+        display: flex;
+        width: 700px;
+        margin: 20px 0 20px 0;
+    }
+
+    .msgOutside>div>h3 {
+        font-size: 20px;
+        width: 500px;
+        margin: 42px 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .msgOutside>div {
+        flex-direction: column;
+        width: calc(100% - 20px);
+    }
+
+    .msgOutside>div>h3 {
+        width: calc(100% - 20px);
+    }
+
+}
+
+/* ######### Vision & Mission, CEO ######### */
+.visionMissionCEOContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.visionMissionCEO {
+    display: flex;
+    flex-direction: column;
+}
+
+.visionMission {
+    display: flex;
+    justify-content: space-evenly;
+    width: 980px;
+    line-height: 1.7;
+}
+
+.visionMission> :nth-child(1) {
+    font-size: 32px;
+    font-weight: bold;
+    width: 30%;
+}
+
+.visionMission> :nth-child(2) {
+    font-size: 20px;
+    width: 70%;
+}
+
+.ceo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 980px;
+    line-height: 1.7;
+    margin-bottom: 70px;
+}
+
+#technologyImg {
+    width: 93%;
+    height: 280px;
+}
+
+.ceo> :nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+    width: 30%;
+}
+
+.ceo> :nth-child(2) {
+    font-size: 20px;
+    width: 70%;
+}
+
+@media screen and (max-width: 1100px) {
+    .visionMission {
+        flex-direction: column;
+        width: 700px;
+        margin-bottom: 40px;
+    }
+
+    .visionMission> :nth-child(1) {
+        width: 100%;
+    }
+
+    .visionMission> :nth-child(2) {
+        width: 100%;
+    }
+
+    .ceo {
+        flex-direction: column;
+        width: 700px;
+    }
+
+    .ceo> :nth-child(1) {
+        width: 55%;
+        margin-bottom: 20px;
+    }
+
+    .ceo> :nth-child(2) {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .visionMission {
+        width: calc(100% - 20px);
+        padding: 8px;
+    }
+
+    .visionMission> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .ceo {
+        width: calc(100% - 20px);
+        padding: 8px;
+    }
+
+    .ceo> :nth-child(2) {
+        font-size: 20px;
+    }
+}
