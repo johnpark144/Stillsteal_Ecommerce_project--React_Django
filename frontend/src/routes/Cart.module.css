@@ -190,7 +190,8 @@
 
     .subTotal {
         position: absolute;
-        top: calc(97% + 15px);
+        font-size: 16px;
+        top: calc(97% + 37px);
         right: 20px;
         background-color: #0e3628;
         border-radius: 100px;
