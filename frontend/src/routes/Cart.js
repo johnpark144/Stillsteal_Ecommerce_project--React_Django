@@ -38,7 +38,7 @@ export default function Cart() {
                                 {/* Table of products in cart */}
                                 <CartTableBody fromCart={true} />
                                 {/* Total */}
-                                <tr style={{ fontSize: '18px' }} className={tableMenus}>
+                                <tr className={tableMenus}>
                                     <th />
                                     <td />
                                     <td />
