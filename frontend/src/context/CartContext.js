@@ -32,7 +32,7 @@ export const CartProvider = ({ children, isLoggedIn }) => {
     useEffect(() => {
         if (isLoggedIn) {
             const loginCart = async () => {
-                await fetch(`/api/cartlist/`, {
+                await fetch(`https://vyckd353.pythonanywhere.com/api/cartlist/`, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json'
