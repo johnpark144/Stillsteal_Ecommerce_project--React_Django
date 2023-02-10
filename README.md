@@ -6,7 +6,7 @@
 - Main Tools : React(frontend), Django(backend, restframework)
 - CSS : Tailwind Css(for practice), Css Modules
 - Sub Tools : Html, MySql, PhotoShop
-- bundler : Webpack
+- Bundler : Webpack
 - Explantion : This is Ecommerce site that I create for practice,
 It's not technically clone, but I refer to some ecommerce sites
 only to think which function would be nice to implement.
