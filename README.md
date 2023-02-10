@@ -6,6 +6,7 @@
 - Main Tools : React(frontend), Django(backend, restframework)
 - CSS : Tailwind Css(for practice), Css Modules
 - Sub Tools : Html, MySql, PhotoShop
+- bundler : Webpack
 - Explantion : This is Ecommerce site that I create for practice,
 It's not technically clone, but I refer to some ecommerce sites
 only to think which function would be nice to implement.
@@ -16,9 +17,8 @@ so in order to stress those are cheap always, I named "stillsteal"
 
 - Date of creation : Nov 4th ~ Nov 15th 2022
 - Date of debugging : Nov 16th ~ Nov 18th 2022 (clean code, fix error, custom hook, comment)
-- Date of upload : Nov 18th 2022
-- Date of re-upload : Feb 6th 2023
-- Date of deployment : Nov 22th 2022
+- Date of 1st upload : Nov 18th 2022
+- Date of 1st deployment : Nov 22th 2022
 - Deployment Tool : Netlify(Front), Pythonanywhere(Back)
 
 
