@@ -10,9 +10,19 @@
 - Explantion : This is Ecommerce site that I create for practice,
 It's not technically clone, but I refer to some ecommerce sites
 only to think which function would be nice to implement.
-the reason why I named this site "Stillsteal" is
-because when we saw some nice for the price, we say "that's steal!",
+
+- Hard Part and Solution :
+1. While implementing Cart function, I realized "Local storage" is needed, It was first time using that so I had a hard time with that at that time,
+especially Whenever I refresh the page, the storage was gone, It was because of typos on "[]", but now thankfuly I got used to it pretty much.
+2. Whenever more and too much codes are required for subtle function than for core function of the website, I was debating if I have to implement or not many time..
+but after all I did those such as "moving into Detail page and back to Category page but showing the anchored spot remembering all the state on 'Sort By','Number of posts to display per page','pagination', etc"
+so because of these to be honest, my code would be so complicated and messy.. but by this I wanted to make "better quality-web site" unlike just common "To-do-list website"
+
+- Things To Fix or Improve : need to get this clean code, better English-comment's grammer, real-payment-function with card for ecommerce shopping
+- Login Must ? : Not necessarily (but There is function of sign-up and log-in)
+- Name why : the reason why I named this site "Stillsteal" is because when we see some nice product for the price, we say "that's steal!",
 so in order to stress those are cheap always, I named "stillsteal"
+
 - Comment language : English
 
 - Date of creation : Nov 4th ~ Nov 15th 2022
@@ -20,7 +30,6 @@ so in order to stress those are cheap always, I named "stillsteal"
 - Date of 1st upload : Nov 18th 2022
 - Date of 1st deployment : Nov 22th 2022
 - Deployment Tool : Netlify(Front), Pythonanywhere(Back)
-
 
 # Functions
 - Responsive Website
