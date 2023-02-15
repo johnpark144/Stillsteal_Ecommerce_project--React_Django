@@ -25,7 +25,6 @@ so because of these to be honest, my code would be so complicated and messy.. bu
 so in order to stress those are cheap always, I named "stillsteal"
 
 - Comment language : English
-
 - Date of creation : Nov 4th ~ Nov 15th 2022
 - Date of debugging : Nov 16th ~ Nov 18th 2022 (clean code, fix error, custom hook, comment)
 - Date of 1st upload : Nov 18th 2022
