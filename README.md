@@ -5,7 +5,7 @@
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : React(frontend), Django(backend, restframework)
 - CSS : Tailwind Css(for practice), Css Modules
-- Sub Tools : Html, MySql, PhotoShop
+- Sub Tools : Html, ContextApi, MySql, PhotoShop
 - Idea or Not : Idea 75%, Clone 25% (refer to how other ecommerce sites look like, and what function exist)
 - Bundler : Webpack
 - Explantion : This is Ecommerce site that I create for practice,
