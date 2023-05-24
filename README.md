@@ -1,3 +1,4 @@
+<a href="README_KOR.md">한글로 보기(KOR)</a>
 # Stillsteal_Ecommerce_project--React_Django
 - Website Link : https://tangerine-cactus-bf8a95.netlify.app
 - Backend(API) : https://vyckd353.pythonanywhere.com/api/
