@@ -20,21 +20,21 @@
 - 고쳐야 하거나 개선이 필요한 점 : 클린코드로 바꾸기, 알아보기 쉬운 영어주석, 카드를 사용한 실시간 페이기능, JWT-token (JWT-token에 대해 더 공부할 필요가 있음)
 - 로그인 필수 ? : 반드시 필요하진 않음 (그러나 회원가입, 로그인 기능은 있음)
 - 프로젝트 이름 이유 : 제가 이 사이트를 "stillsteal"이라고 이름을 지은 이유는 우리가 가성비 좋은 제품들을 볼 때마다, 영어로 "that's steal!" 이라고 말하곤 합니다,
-그래서 항상 싸다는 것을 강조하기위해 stillsteal이라 이름을 짓게 되었습니다
+그래서 항상 싸다는 것을 강조하기위해 stillsteal이라 이름을 짓게 되었습니다.
 
-- Comment language : English
-- Date of creation : Nov 4th ~ Nov 15th 2022
-- Date of debugging : Nov 16th ~ Nov 18th 2022 (clean code, fix error, custom hook, comment)
-- Date of 1st upload : Nov 18th 2022
-- Date of 1st deployment : Nov 22th 2022
-- Deployment Tool : Netlify(Front), Pythonanywhere(Back)
+- 주석 언어 : 영어
+- 만든기간 : 2022년 11월 4일 ~ 11월 15일
+- 디버깅기간 : 2022년 11월 16일 ~ 11월 18일 (클린코드, 오류 점검, 커스텀 훅, 주석)
+- 처음 깃허브 올린날 : 2022년 11월 18일
+- 배포 한날 : 2022년 11월 22일
+- 배포 도구 : Netlify(프론트엔드), Pythonanywhere(백엔드)
 
 # Functions
-- Responsive Website
-- Login, Logout, Signup (you can also use without login)
-- TokenRefresh with JWT
-- Navigation bar and Navigation side bar
-- Add to cart, subtract from cart (Login -> Local Storage / Non-login -> Backend Server)
+- 반응형 웹 사이트
+- 로그인, 로그아웃, 회원 가입 (로그인없이 장바구니 사용가능)
+- JWT를 사용하여 토큰을 갱신
+- 네비게이션 바, 네비게이션 사이드 바
+- 카트에 추가, 제거 (로그인 -> 백엔드 서버 / 비로그인 -> 로컬 스토리지)
 - Search
 - Past-searchlist(Local Storage) and delete
 - See cart in Product detail, Checkout, Cart in deferent form
