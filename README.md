@@ -23,7 +23,7 @@ so because of these to be honest, my code would be so complicated and messy.. bu
 - Things To Fix or Improve : need to get this clean code, better English-comment's grammer, real-payment-function with card for ecommerce shopping, JWT-token (I need to study about more JWT-token.)
 - Login Must ? : Not necessarily (but There is function of sign-up and log-in)
 - Name why : the reason why I named this site "Stillsteal" is because when we see some nice product for the price, we say "that's steal!",
-so in order to stress those are cheap always, I named "stillsteal"
+so in order to stress those are cheap always which means "still", I named it "stillsteal"
 
 - Comment language : English
 - Date of creation : Nov 4th ~ Nov 15th 2022
