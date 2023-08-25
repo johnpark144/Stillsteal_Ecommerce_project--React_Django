@@ -1,8 +1,8 @@
-import React, { useContext, useEffect } from "react";
-import { Link } from "react-router-dom";
-import AuthContext from "../../context/AuthContext";
-import CartContext from "../../context/CartContext";
-import styles from "./NavSideBarNavbarFooter.module.css";
+import React, { useContext, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import AuthContext from '../../context/AuthContext';
+import CartContext from '../../context/CartContext';
+import styles from './NavSideBarNavbarFooter.module.css';
 
 export default function Navbar({ setIsLoggedIn, setShowSideBar }) {
   let { user, logoutUser } = useContext(AuthContext);
@@ -14,7 +14,7 @@ export default function Navbar({ setIsLoggedIn, setShowSideBar }) {
     } else {
       setIsLoggedIn(false);
     }
-  }, [user]);
+  }, [setIsLoggedIn, user]);
 
   // Menus
   const Menu = ({ linkTo, name }) => {
@@ -22,7 +22,7 @@ export default function Navbar({ setIsLoggedIn, setShowSideBar }) {
       <li>
         <Link
           to={linkTo}
-          className={"text-gray-700 hover:text-emerald-600 text-md"}
+          className={'text-gray-700 hover:text-emerald-600 text-md'}
         >
           {name}
         </Link>
@@ -32,30 +32,30 @@ export default function Navbar({ setIsLoggedIn, setShowSideBar }) {
 
   return (
     <>
-      <header className="w-screen">
+      <header className='w-screen'>
         {/* Navbar and Menu */}
-        <nav className="bg-gradient-to-r from-green-50 to-slate-200 shadow">
-          <div className="flex justify-between items-center py-6 px-20">
+        <nav className='bg-gradient-to-r from-green-50 to-slate-200 shadow'>
+          <div className='flex justify-between items-center py-6 px-20'>
             {/* Logo and Stillsteal */}
             <div style={{ fontFamily: "'Aldrich', sans-serif" }}>
               <Link
-                to="/"
-                className="text-xl -ml-10 sm:ml-0 sm:text-2xl font-bold bg-gradient-to-tr from-lime-600 to-emerald-600 bg-clip-text text-transparent hover:cursor-pointer"
+                to='/'
+                className='pt-1 text-xl -ml-10 sm:ml-0 sm:text-2xl font-bold bg-gradient-to-tr from-lime-600 to-emerald-600 bg-clip-text text-transparent hover:cursor-pointer'
               >
-                <span className="material-icons-outlined">local_shipping</span>
+                <span className='material-icons-outlined'>local_shipping</span>
                 &nbsp;
                 <span>Stillsteal</span>
               </Link>
             </div>
             <div>
-              <div className="flex items-center">
+              <div className='flex items-center'>
                 {/* Menus */}
                 <ul className={`${styles.menus} flex space-x-4 items-center`}>
-                  <Menu linkTo="/" name="Home" />
-                  <Menu linkTo="/category" name="Category" />
-                  <Menu linkTo="/cart" name="Cart" />
-                  <Menu linkTo="/checkout" name="Checkout" />
-                  <Menu linkTo="/aboutus" name="About Us" />
+                  <Menu linkTo='/' name='Home' />
+                  <Menu linkTo='/category' name='Category' />
+                  <Menu linkTo='/cart' name='Cart' />
+                  <Menu linkTo='/checkout' name='Checkout' />
+                  <Menu linkTo='/aboutus' name='About Us' />
                 </ul>
                 {/* Login, Logout */}
                 <div className={styles.loginSignup}>
@@ -63,25 +63,25 @@ export default function Navbar({ setIsLoggedIn, setShowSideBar }) {
                     <>
                       <p
                         onClick={logoutUser}
-                        className="text-text-gray-600 py-2 hover:cursor-pointer hover:text-emerald-600"
+                        className='text-text-gray-600 py-2 hover:cursor-pointer hover:text-emerald-600'
                       >
                         LOGOUT
                       </p>
-                      <p className="text-text-gray-600 py-2 px-4 rounded text-white bg-gradient-to-tr from-blue-800 to-emerald-700 hover:shadow-lg">
+                      <p className='text-text-gray-600 py-2 px-4 rounded text-white bg-gradient-to-tr from-blue-800 to-emerald-700 hover:shadow-lg'>
                         {`${user.username}`}
                       </p>
                     </>
                   ) : (
                     <>
                       <Link
-                        to={"/login"}
-                        className="text-text-gray-600 py-2 hover:cursor-pointer hover:text-emerald-600"
+                        to={'/login'}
+                        className='text-text-gray-600 py-2 hover:cursor-pointer hover:text-emerald-600'
                       >
                         LOGIN
                       </Link>
                       <Link
-                        to={"/signup"}
-                        className="text-text-gray-600 py-2 hover:cursor-pointer px-4 rounded text-white bg-gradient-to-tr from-blue-800 to-emerald-700 hover:shadow-lg"
+                        to={'/signup'}
+                        className='text-text-gray-600 py-2 hover:cursor-pointer px-4 rounded text-white bg-gradient-to-tr from-blue-800 to-emerald-700 hover:shadow-lg'
                       >
                         SIGNUP
                       </Link>
@@ -89,15 +89,15 @@ export default function Navbar({ setIsLoggedIn, setShowSideBar }) {
                   )}
                 </div>
                 {/* Cart, Cart number */}
-                <Link to="/cart" className={styles.cart}>
-                  <span className="material-icons text-gray-700 hover:text-emerald-600 text-md">
+                <Link to='/cart' className={styles.cart}>
+                  <span className='material-icons text-gray-700 hover:text-emerald-600 text-md'>
                     shopping_cart
                   </span>
                   <button
-                    type="button"
-                    className="w-8 h-8 text-base rounded-full text-white bg-red-500"
+                    type='button'
+                    className='w-8 h-8 text-base rounded-full text-white bg-red-500'
                   >
-                    <span id="cartNumber" className="p-1">
+                    <span id='cartNumber' className='p-1'>
                       {cartList.length}
                     </span>
                   </button>
