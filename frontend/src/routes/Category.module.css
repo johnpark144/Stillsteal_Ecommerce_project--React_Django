@@ -215,6 +215,7 @@
     padding: 10px;
     text-align: center;
     position: relative;
+    cursor: pointer;
 }
 
 .menu:hover {

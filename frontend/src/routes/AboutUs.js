@@ -48,13 +48,7 @@ export default function AboutUs() {
         <div>
           <div>
             <h1>Trust</h1>
-            <img
-              id={styles.trustImg}
-              alt='trust'
-              src={
-                'https://user-images.githubusercontent.com/106279616/201973581-f22ea2fd-40f9-42de-a7a5-fa57fe2d70d8.jpg'
-              }
-            />
+            <div id={styles.trustImg} />
           </div>
           <h3>
             Stillsteal's unique reward system and aggressive sales prevention
@@ -64,13 +58,7 @@ export default function AboutUs() {
         <div>
           <div>
             <h1>Hope</h1>
-            <img
-              id={styles.hopeImg}
-              alt='hope'
-              src={
-                'https://user-images.githubusercontent.com/106279616/201973627-3bda0ace-6605-4a3c-9d8a-41d56d6bddef.jpg'
-              }
-            />
+            <div id={styles.hopeImg} />
           </div>
           <h3>
             Hope donations collected through 'Stillsteal Hope Shopping', a
@@ -82,13 +70,7 @@ export default function AboutUs() {
         <div>
           <div>
             <h1>Technology</h1>
-            <img
-              id={styles.techImg}
-              alt='technology'
-              src={
-                'https://user-images.githubusercontent.com/106279616/201973611-93fba9aa-d6b1-480c-97c9-6138b403e24f.jpg'
-              }
-            />
+            <div id={styles.techImg} />
           </div>
           <h3>
             Stillsteal's independently developed AI-based commerce search
@@ -138,13 +120,7 @@ export default function AboutUs() {
           {/* CEO */}
           <div className={styles.ceo}>
             <div>
-              <img
-                id={styles.technologyImg}
-                alt='technology'
-                src={
-                  'https://avatars.githubusercontent.com/u/106279616?s=400&u=eba67d20ce5f96758130ffe5bb066773a45c2eb6&v=4'
-                }
-              />
+              <div id={styles.technologyImg} />
               <h1>CEO : Yeonghwan Park (John Park)</h1>
             </div>
             <div>
