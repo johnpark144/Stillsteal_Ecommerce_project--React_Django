@@ -43,13 +43,25 @@ export default function Footer() {
           </ol>
           {/* SNS */}
           <ol className={styles.snsLogo}>
-            <a href='https://www.facebook.com/' target='_blank'>
+            <a
+              href='https://www.facebook.com/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <li className='fa fa-facebook-official' />
             </a>
-            <a href='https://github.com/johnpark144/' target='_blank'>
+            <a
+              href='https://github.com/johnpark144/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <li className='fa fa-github' />
             </a>
-            <a href='https://www.instagram.com//' target='_blank'>
+            <a
+              href='https://www.instagram.com//'
+              target='_blank'
+              rel='noreferrer'
+            >
               <li className='fa fa-instagram' />
             </a>
           </ol>
