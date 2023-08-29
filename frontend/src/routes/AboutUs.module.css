@@ -138,20 +138,20 @@
 
 @media screen and (max-width: 1700px) {
     #trustImg {
-        width: 300px;
-        background-size: 605px 610px;
+        width: 297px;
+        background-size: 609px 610px;
         margin: 0px auto;
     }
 
     #hopeImg {
-        width: 300px;
+        width: 297px;
         background-size: 609px 610px;
         margin: 0px auto;
     }
 
     #techImg {
-        width: 300px;
-        background-size: 610px 610px;
+        width: 297px;
+        background-size: 609px 610px;
         margin: 0px auto;
     }
 }
