@@ -1,7 +1,6 @@
 .imgContainer {
     background-size: 100% 800px;
     background-repeat: no-repeat;
-    width: 100vw;
     height: 800px;
     transition: background-image 1800ms 0s ease-in-out;
     filter: brightness(90%);
@@ -9,6 +8,7 @@
 
 /* ######### changing-Image and letters ######### */
 .msgInside {
+    width: 80%;
     position: relative;
     top: 170px;
     left: 70px;
@@ -24,14 +24,15 @@
 }
 
 .msgBestCommerce {
+    width: 980px;
     position: relative;
     top: 180px;
-    left: calc(92% - 1070px);
+    left: calc(120% - 1000px);
     display: flex;
 }
 
 .msgBestCommerce :nth-child(1) {
-    width: 350px;
+    width: 330px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -44,7 +45,6 @@
 @media screen and (max-width: 1100px) {
     .imgContainer {
         height: 500px;
-        width: 100vw;
         background-size: 100vw 500px;
     }
 
@@ -63,7 +63,8 @@
 
     .msgBestCommerce {
         top: 120px;
-        left: calc(93% - 650px);
+        width: 600px;
+        left: calc(120% - 620px);
     }
 
     .msgBestCommerce :nth-child(1) {
@@ -79,14 +80,12 @@
 
 @media screen and (max-width: 675px) {
     .imgContainer {
-        width: 100vw;
         height: 400px;
         background-size: 100vw 450px;
         margin-top: 27px;
     }
 
     .msgInside {
-        width: 100vw;
         left: 20px;
     }
 
@@ -114,7 +113,7 @@
 }
 
 #trustImg {
-    width: 500px;
+    width: 100%;
     height: 300px;
     background: url('https://user-images.githubusercontent.com/106279616/263951229-05bfbe0c-1bf0-49fc-b928-f7f9999ceaee.jpg');
     background-size: 1016px 610px;
@@ -122,7 +121,7 @@
 }
 
 #hopeImg {
-    width: 500px;
+    width: 100%;
     height: 300px;
     background: url('https://user-images.githubusercontent.com/106279616/263951229-05bfbe0c-1bf0-49fc-b928-f7f9999ceaee.jpg');
     background-size: 1016px 610px;
@@ -130,11 +129,31 @@
 }
 
 #techImg {
-    width: 500px;
+    width: 100%;
     height: 300px;
     background: url('https://user-images.githubusercontent.com/106279616/263951229-05bfbe0c-1bf0-49fc-b928-f7f9999ceaee.jpg');
     background-size: 1016px 610px;
     background-position: 0px 300px
+}
+
+@media screen and (max-width: 1700px) {
+    #trustImg {
+        width: 300px;
+        background-size: 605px 610px;
+        margin: 0px auto;
+    }
+
+    #hopeImg {
+        width: 300px;
+        background-size: 609px 610px;
+        margin: 0px auto;
+    }
+
+    #techImg {
+        width: 300px;
+        background-size: 610px 610px;
+        margin: 0px auto;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -245,9 +264,13 @@
         width: 700px;
     }
 
+    #technologyImg {
+        width: 310px;
+    }
+
     .ceo> :nth-child(1) {
-        width: 55%;
-        margin-bottom: 20px;
+        width: 310px;
+        margin: 20px auto;
     }
 
     .ceo> :nth-child(2) {

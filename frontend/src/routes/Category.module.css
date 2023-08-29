@@ -284,6 +284,14 @@
     .search :nth-child(1) {
         width: 350px;
     }
+
+    .menus {
+        width: 100%;
+    }
+
+    .menu {
+        padding: 6px;
+    }
 }
 
 
