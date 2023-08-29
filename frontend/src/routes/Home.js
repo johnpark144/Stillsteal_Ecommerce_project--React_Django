@@ -4,29 +4,36 @@ import MenusGreenbg from '../components/Home_MenusGreenbg';
 import AnimationButton from '../components/Cart_AnimationButton';
 import CartContext from '../context/CartContext';
 import styles from './Home.module.css';
+import { throttle } from 'lodash';
 
 export default function Home() {
   let { cartList, setCartList } = useContext(CartContext); //state management with useContext To use cartlist globally
   const [products, setProducts] = useState([]);
+  const [scrollYValue, setScrollYValue] = useState(window.scrollY);
 
   // Call 3 products randomly
   useEffect(() => {
-    let getNotes = async () => {
+    (async () => {
       let response = await fetch(
         'https://vyckd353.pythonanywhere.com/api/products/'
       ); // Backend Site
       let data = await response.json();
       data = data.sort(() => Math.random() - 0.5);
       setProducts(data.slice(0, 3));
-    };
-    getNotes();
+    })();
   }, []);
 
-  // Whenever scroll event happen, Change the value of scroll Y-coordinate
-  const [scrollYValue, setScrollYValue] = useState(window.scrollY);
-  window.addEventListener('scroll', () => {
+  // Whenever scroll event happen, Throttle works and Change the Scroll Y Value
+  const handleScroll = throttle(() => {
     setScrollYValue(window.scrollY);
-  });
+  }, 200);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [handleScroll]);
 
   return (
     <div className={styles.home}>
