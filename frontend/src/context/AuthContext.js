@@ -64,7 +64,7 @@ export const AuthProvider = ({ children }) => {
       navigate('/');
       setTimeout(() => {
         window.location.reload();
-      }, '100'); // Once navigated, Refresh and display cart list (SPA's downside...)
+      }, '700'); // Once navigated, Refresh and display cart list (SPA's downside...)
     } else {
       alert('Something went wrong!');
     }
@@ -121,7 +121,7 @@ export const AuthProvider = ({ children }) => {
     let password = e.target.password.value;
     let password2 = e.target.password2.value;
 
-    if (password == password2 && username && password) {
+    if (password === password2 && username && password) {
       let response = await fetch(
         'https://vyckd353.pythonanywhere.com/api/createuser/',
         {
