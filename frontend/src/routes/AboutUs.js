@@ -17,7 +17,7 @@ export default function AboutUs() {
   // CustomHook (useInterval : setinterval in JS)
   useInterval(() => {
     idx === 3 ? setIdx(0) : setIdx(idx + 1);
-  }, 3000); // every 3s
+  }, 2000); // every 2s
 
   return (
     <>
