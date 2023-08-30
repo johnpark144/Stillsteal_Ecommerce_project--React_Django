@@ -2,7 +2,7 @@
 
 # Stillsteal_Ecommerce_project--React_Django
 
-- Website Link : https://tangerine-cactus-bf8a95.netlify.app
+- Website Link : https://stillsteal.netlify.app
 - Backend(API) : https://vyckd353.pythonanywhere.com/api/
 
 - Creater : Yeonghwan Park (John Park)
