@@ -1,5 +1,5 @@
 # Stillsteal_Ecommerce_project--React_Django
-- 웹사이트 링크  : https://tangerine-cactus-bf8a95.netlify.app
+- 웹사이트 링크  : https://stillsteal.netlify.app
 - 백엔드(API) : https://vyckd353.pythonanywhere.com/api/
 
 - 만든이 : 박영환(John Park)
@@ -47,6 +47,7 @@
 - 상품 디테일
 - 체크아웃 (페이기능은 아직 없음)
 - 이미지 애니메이션 및 디자인 (Home-product, AboutUs, sidebar 안에)
+- 이미지 스프라이트 처리(AboutUs)
 - 데이터 발견 할때까지 로딩 스피너 (데이터 없어도)
 
 # 샘플 사진
